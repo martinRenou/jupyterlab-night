@@ -206,9 +206,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-layout-color0: #010409;
   --jp-layout-color1: #0d1117;
-  --jp-layout-color2: #3f4244;
-  --jp-layout-color3: #0d1117;
-  --jp-layout-color4: #0d1117;
+  --jp-layout-color2: #21262d;
+  --jp-layout-color3: #161b22;
+  --jp-layout-color4: #161b22;
 
   /* Inverse Layout
    *
@@ -301,7 +301,7 @@ all of MD as it is not optimized for dense, information rich UIs.
       var(--jp-code-padding) - var(--jp-cell-padding) - 1px
   );
 
-  --jp-scrollbar-background-color: #3f4244;
+  --jp-scrollbar-background-color: #21262d;
   --jp-scrollbar-thumb-color: 88, 96, 97; /* need to specify thumb color as an RGB triplet */
 
   --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
