@@ -206,9 +206,9 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-layout-color0: #010409;
   --jp-layout-color1: #0d1117;
-  --jp-layout-color2: #0d1117;
-  --jp-layout-color3: #1b1f25;
-  --jp-layout-color4: #33363b;
+  --jp-layout-color2: #3f4244;
+  --jp-layout-color3: #0d1117;
+  --jp-layout-color4: #0d1117;
 
   /* Inverse Layout
    *
@@ -392,4 +392,12 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 .jp-InputArea-editor {
   border-radius: 6px;
+}
+
+.jp-InputGroup input {
+  border-radius: 6px;
+}
+
+.jp-FileBrowser-toolbar.jp-Toolbar .jp-Toolbar-item:first-child .jp-ToolbarButtonComponent .jp-icon3 {
+  fill: white;
 }
