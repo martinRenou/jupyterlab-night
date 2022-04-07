@@ -38,6 +38,12 @@ all of MD as it is not optimized for dense, information rich UIs.
    * https://material-components-web.appspot.com/elevation.html
    */
 
+  --jp-night-green: #238635;
+  --jp-night-blue: #59a6ff;
+  --jp-night-orange: #F78166;
+  --jp-night-red: #e94d46;
+  --jp-night-purple: #a371f7;
+
    --jp-shadow-base-lightness: 32;
    --jp-shadow-umbra-color: rgba(
      var(--jp-shadow-base-lightness),
@@ -174,7 +180,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-font-color1: rgba(255, 255, 255, 1);
   --jp-content-font-color2: rgba(255, 255, 255, 0.7);
   --jp-content-font-color3: rgba(255, 255, 255, 0.5);
-  --jp-content-link-color: #59a6ff;
+  --jp-content-link-color: var(--jp-night-blue);
 
   --jp-content-font-family: 'JetBrains Mono';
 
@@ -216,18 +222,13 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from dark to light.
    */
 
-   --jp-inverse-layout-color0: white;
-   --jp-inverse-layout-color1: white;
-   --jp-inverse-layout-color2: var(--md-grey-200);
-   --jp-inverse-layout-color3: var(--md-grey-400);
-   --jp-inverse-layout-color4: var(--md-grey-600);
+  --jp-inverse-layout-color0: white;
+  --jp-inverse-layout-color1: white;
+  --jp-inverse-layout-color2: var(--md-grey-200);
+  --jp-inverse-layout-color3: var(--md-grey-400);
+  --jp-inverse-layout-color4: var(--md-grey-600);
 
   /* Brand/accent */
-
-  --jp-night-green: #238635;
-  --jp-night-blue: #59a6ff;
-  --jp-night-orange: #F78166;
-  --jp-night-red: #e94d46;
 
   --jp-brand-color0: var(--jp-night-green);
   --jp-brand-color1: var(--jp-night-green);
@@ -361,29 +362,29 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: var(--md-green-500);
-  --jp-mirror-editor-atom-color: var(--md-blue-300);
-  --jp-mirror-editor-number-color: var(--md-green-400);
-  --jp-mirror-editor-def-color: var(--md-blue-600);
+  --jp-mirror-editor-keyword-color: #ff7b72;
+  --jp-mirror-editor-atom-color: var(--jp-night-blue);
+  --jp-mirror-editor-number-color: #79c0ff;
+  --jp-mirror-editor-def-color: #d2a8ff;
   --jp-mirror-editor-variable-color: var(--md-grey-300);
-  --jp-mirror-editor-variable-2-color: var(--md-blue-400);
-  --jp-mirror-editor-variable-3-color: var(--md-green-600);
-  --jp-mirror-editor-punctuation-color: var(--md-blue-400);
-  --jp-mirror-editor-property-color: var(--md-blue-400);
-  --jp-mirror-editor-operator-color: #a2f;
-  --jp-mirror-editor-comment-color: #408080;
-  --jp-mirror-editor-string-color: #ff7070;
-  --jp-mirror-editor-string-2-color: var(--md-purple-300);
-  --jp-mirror-editor-meta-color: #a2f;
+  --jp-mirror-editor-variable-2-color: var(--jp-night-blue);
+  --jp-mirror-editor-variable-3-color: var(--jp-night-green);
+  --jp-mirror-editor-punctuation-color: var(--jp-night-blue);
+  --jp-mirror-editor-property-color: #d2a8ff;
+  --jp-mirror-editor-operator-color: #79c0ff;
+  --jp-mirror-editor-comment-color: #8b949e;
+  --jp-mirror-editor-string-color: #a5d6ff;
+  --jp-mirror-editor-string-2-color: #a5d6ff;
+  --jp-mirror-editor-meta-color: var(--jp-night-purple);
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: var(--md-green-600);
+  --jp-mirror-editor-builtin-color: var(--jp-night-green);
   --jp-mirror-editor-bracket-color: #997;
-  --jp-mirror-editor-tag-color: var(--md-green-700);
-  --jp-mirror-editor-attribute-color: var(--md-blue-700);
-  --jp-mirror-editor-header-color: var(--md-blue-500);
-  --jp-mirror-editor-quote-color: var(--md-green-300);
-  --jp-mirror-editor-link-color: var(--md-blue-700);
-  --jp-mirror-editor-error-color: #f00;
+  --jp-mirror-editor-tag-color: var(--jp-night-green);
+  --jp-mirror-editor-attribute-color: var(--jp-night-blue);
+  --jp-mirror-editor-header-color: var(--jp-night-blue);
+  --jp-mirror-editor-quote-color: var(--jp-night-green);
+  --jp-mirror-editor-link-color: var(--jp-night-blue);
+  --jp-mirror-editor-error-color: var(--jp-night-red);
   --jp-mirror-editor-hr-color: #999;
 
   /* Vega extension styles */
@@ -405,4 +406,8 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 .jp-FileBrowser-toolbar.jp-Toolbar .jp-Toolbar-item:first-child .jp-ToolbarButtonComponent .jp-icon3 {
   fill: white;
+}
+
+.jp-DirListing-item.jp-mod-selected {
+  color: white;
 }
