@@ -224,37 +224,42 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Brand/accent */
 
-  --jp-brand-color0: #238635;
-  --jp-brand-color1: #238635;
-  --jp-brand-color2: #59a6ff;
-  --jp-brand-color3: #59a6ff;
+  --jp-night-green: #238635;
+  --jp-night-blue: #59a6ff;
+  --jp-night-orange: #F78166;
+  --jp-night-red: #e94d46;
 
-  --jp-accent-color0: var(--md-green-700);
-  --jp-accent-color1: var(--md-green-500);
-  --jp-accent-color2: var(--md-green-300);
-  --jp-accent-color3: var(--md-green-100);
+  --jp-brand-color0: var(--jp-night-green);
+  --jp-brand-color1: var(--jp-night-green);
+  --jp-brand-color2: var(--jp-night-blue);
+  --jp-brand-color3: var(--jp-night-blue);
+
+  --jp-accent-color0: var(--jp-night-green);
+  --jp-accent-color1: var(--jp-night-green);
+  --jp-accent-color2: var(--jp-night-green);
+  --jp-accent-color3: var(--jp-night-green);
 
   /* State colors (warn, error, success, info) */
 
-  --jp-warn-color0: #F78166;
-  --jp-warn-color1: #F78166;
-  --jp-warn-color2: #F78166;
-  --jp-warn-color3: #F78166;
+  --jp-warn-color0: var(--jp-night-orange);
+  --jp-warn-color1: var(--jp-night-orange);
+  --jp-warn-color2: var(--jp-night-orange);
+  --jp-warn-color3: var(--jp-night-orange);
 
-  --jp-error-color0: #e94d46;
-  --jp-error-color1: #e94d46;
-  --jp-error-color2: #e94d46;
-  --jp-error-color3: #e94d46;
+  --jp-error-color0: var(--jp-night-red);
+  --jp-error-color1: var(--jp-night-red);
+  --jp-error-color2: var(--jp-night-red);
+  --jp-error-color3: var(--jp-night-red);
 
-  --jp-success-color0: #238635;
-  --jp-success-color1: #238635;
-  --jp-success-color2: #238635;
-  --jp-success-color3: #238635;
+  --jp-success-color0: var(--jp-night-green);
+  --jp-success-color1: var(--jp-night-green);
+  --jp-success-color2: var(--jp-night-green);
+  --jp-success-color3: var(--jp-night-green);
 
-  --jp-info-color0: #59a6ff;
-  --jp-info-color1: #59a6ff;
-  --jp-info-color2: #59a6ff;
-  --jp-info-color3: #59a6ff;
+  --jp-info-color0: var(--jp-night-blue);
+  --jp-info-color1: var(--jp-night-blue);
+  --jp-info-color2: var(--jp-night-blue);
+  --jp-info-color3: var(--jp-night-blue);
 
   /* Cell specific styles */
 
@@ -278,11 +283,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-not-active-font-color: white;
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #238635;
+  --jp-cell-inprompt-font-color: var(--jp-night-green);
 
    /* A custom blend of MD grey and orange 600
     * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #F78166;
+  --jp-cell-outprompt-font-color: var(--jp-night-orange);
 
   /* Notebook specific styles */
 
