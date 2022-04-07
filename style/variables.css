@@ -278,11 +278,11 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-not-active-font-color: white;
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #59a6ff;
+  --jp-cell-inprompt-font-color: #238635;
 
    /* A custom blend of MD grey and orange 600
     * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #bf5b3d;
+  --jp-cell-outprompt-font-color: #F78166;
 
   /* Notebook specific styles */
 
