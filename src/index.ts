@@ -18,6 +18,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     manager.register({
       name: 'JupyterLab Night',
       isLight: false,
+      themeScrollbars: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
     });
