@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-night",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Dark theme for JupyterLab",
   "keywords": [
     "jupyter",
@@ -78,7 +78,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "jupyterlab": { 
+  "jupyterlab": {
     "extension": true,
     "outputDir": "jupyterlab_night/labextension",
     "themePath": "style/index.css"
