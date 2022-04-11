@@ -22,7 +22,6 @@
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "style": "style/index.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/martinRenou/jupyterlab-night.git"
