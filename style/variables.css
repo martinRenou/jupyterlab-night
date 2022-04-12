@@ -43,6 +43,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-night-orange: #F78166;
   --jp-night-red: #e94d46;
   --jp-night-purple: #a371f7;
+  --jp-night-grey: #8b949e;
 
    --jp-shadow-base-lightness: 32;
    --jp-shadow-umbra-color: rgba(
@@ -214,7 +215,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-layout-color1: #0d1117;
   --jp-layout-color2: #21262d;
   --jp-layout-color3: #161b22;
-  --jp-layout-color4: #161b22;
+  --jp-layout-color4: #30363d;
 
   /* Inverse Layout
    *
@@ -372,7 +373,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-punctuation-color: var(--jp-night-blue);
   --jp-mirror-editor-property-color: #d2a8ff;
   --jp-mirror-editor-operator-color: #79c0ff;
-  --jp-mirror-editor-comment-color: #8b949e;
+  --jp-mirror-editor-comment-color: var(--jp-night-grey);
   --jp-mirror-editor-string-color: #a5d6ff;
   --jp-mirror-editor-string-2-color: #a5d6ff;
   --jp-mirror-editor-meta-color: var(--jp-night-purple);
@@ -410,4 +411,16 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 .jp-DirListing-item.jp-mod-selected {
   color: white;
+}
+
+.jp-LauncherCard {
+  background: var(--jp-layout-color2);
+  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color,background-color,border-color;
+}
+
+.jp-LauncherCard:hover {
+  background: var(--jp-layout-color4);
+  transition-duration: .1s;
+  border-color: var(--jp-night-grey);
 }
