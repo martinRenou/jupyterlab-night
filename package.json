@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-night",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Dark theme for JupyterLab",
   "keywords": [
     "jupyter",
