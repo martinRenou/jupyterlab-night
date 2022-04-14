@@ -424,3 +424,9 @@ all of MD as it is not optimized for dense, information rich UIs.
   transition-duration: .1s;
   border-color: var(--jp-night-grey);
 }
+
+.jp-SideBar.lm-TabBar .lm-TabBar-tab.lm-mod-current {
+  border-top-style: solid;
+  border-top-color: var(--jp-night-green);
+  border-top-width: 3px;
+}
