@@ -434,3 +434,11 @@ all of MD as it is not optimized for dense, information rich UIs.
 .CodeMirror-selected {
   background-color: #1e4273 !important;
 }
+
+.widget-slider .ui-slider .ui-slider-handle {
+  background-color: var(--jp-night-green);
+}
+
+.widget-slider .ui-slider {
+  background-color: var(--jp-layout-color4);
+}
