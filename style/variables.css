@@ -430,3 +430,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   border-top-color: var(--jp-night-green);
   border-top-width: 3px;
 }
+
+.CodeMirror-selected {
+  background-color: #1e4273 !important;
+}
