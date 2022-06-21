@@ -13,6 +13,12 @@ JupyterLab dark theme inspired by the Github dark theme
 To install the extension, execute:
 
 ```bash
+conda install jupyterlab-night -c conda-forge
+```
+
+or
+
+```bash
 pip install jupyterlab-night
 ```
 
