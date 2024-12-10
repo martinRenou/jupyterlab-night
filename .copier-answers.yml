@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.6
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: martin.renou@gmail.com
+author_name: Martin Renou
+has_binder: true
+has_settings: false
+kind: theme
+labextension_name: jupyterlab-night
+project_short_description: Dark theme for JupyterLab
+python_name: jupyterlab_night
+repository: https://github.com/martinRenou/jupyterlab-night.git
+test: false
+
