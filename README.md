@@ -6,7 +6,7 @@ JupyterLab dark theme inspired by the Github dark theme
 
 ## Requirements
 
-* JupyterLab >= 3.0
+- JupyterLab >= 3.0
 
 ## Install
 

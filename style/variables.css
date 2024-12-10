@@ -1,7 +1,7 @@
-/*-----------------------------------------------------------------------------
+/* -----------------------------------------------------------------------------
 | Copyright (c) Jupyter Development Team.
 | Distributed under the terms of the Modified BSD License.
-|----------------------------------------------------------------------------*/
+|---------------------------------------------------------------------------- */
 
 /*
 The following CSS variables define the main, public API for styling JupyterLab.
@@ -40,58 +40,58 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-night-green: #238635;
   --jp-night-blue: #59a6ff;
-  --jp-night-orange: #F78166;
+  --jp-night-orange: #f78166;
   --jp-night-red: #e94d46;
   --jp-night-purple: #a371f7;
   --jp-night-grey: #8b949e;
 
-   --jp-shadow-base-lightness: 32;
-   --jp-shadow-umbra-color: rgba(
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     0.2
-   );
-   --jp-shadow-penumbra-color: rgba(
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     0.14
-   );
-   --jp-shadow-ambient-color: rgba(
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     var(--jp-shadow-base-lightness),
-     0.12
-   );
-   --jp-elevation-z0: none;
-   --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
-     0 1px 1px 0 var(--jp-shadow-penumbra-color),
-     0 1px 3px 0 var(--jp-shadow-ambient-color);
-   --jp-elevation-z2: 0 3px 1px -2px var(--jp-shadow-umbra-color),
-     0 2px 2px 0 var(--jp-shadow-penumbra-color),
-     0 1px 5px 0 var(--jp-shadow-ambient-color);
-   --jp-elevation-z4: 0 2px 4px -1px var(--jp-shadow-umbra-color),
-     0 4px 5px 0 var(--jp-shadow-penumbra-color),
-     0 1px 10px 0 var(--jp-shadow-ambient-color);
-   --jp-elevation-z6: 0 3px 5px -1px var(--jp-shadow-umbra-color),
-     0 6px 10px 0 var(--jp-shadow-penumbra-color),
-     0 1px 18px 0 var(--jp-shadow-ambient-color);
-   --jp-elevation-z8: 0 5px 5px -3px var(--jp-shadow-umbra-color),
-     0 8px 10px 1px var(--jp-shadow-penumbra-color),
-     0 3px 14px 2px var(--jp-shadow-ambient-color);
-   --jp-elevation-z12: 0 7px 8px -4px var(--jp-shadow-umbra-color),
-     0 12px 17px 2px var(--jp-shadow-penumbra-color),
-     0 5px 22px 4px var(--jp-shadow-ambient-color);
-   --jp-elevation-z16: 0 8px 10px -5px var(--jp-shadow-umbra-color),
-     0 16px 24px 2px var(--jp-shadow-penumbra-color),
-     0 6px 30px 5px var(--jp-shadow-ambient-color);
-   --jp-elevation-z20: 0 10px 13px -6px var(--jp-shadow-umbra-color),
-     0 20px 31px 3px var(--jp-shadow-penumbra-color),
-     0 8px 38px 7px var(--jp-shadow-ambient-color);
-   --jp-elevation-z24: 0 11px 15px -7px var(--jp-shadow-umbra-color),
-     0 24px 38px 3px var(--jp-shadow-penumbra-color),
-     0 9px 46px 8px var(--jp-shadow-ambient-color);
+  --jp-shadow-base-lightness: 32;
+  --jp-shadow-umbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.2
+  );
+  --jp-shadow-penumbra-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.14
+  );
+  --jp-shadow-ambient-color: rgba(
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    var(--jp-shadow-base-lightness),
+    0.12
+  );
+  --jp-elevation-z0: none;
+  --jp-elevation-z1: 0 2px 1px -1px var(--jp-shadow-umbra-color),
+    0 1px 1px 0 var(--jp-shadow-penumbra-color),
+    0 1px 3px 0 var(--jp-shadow-ambient-color);
+  --jp-elevation-z2: 0 3px 1px -2px var(--jp-shadow-umbra-color),
+    0 2px 2px 0 var(--jp-shadow-penumbra-color),
+    0 1px 5px 0 var(--jp-shadow-ambient-color);
+  --jp-elevation-z4: 0 2px 4px -1px var(--jp-shadow-umbra-color),
+    0 4px 5px 0 var(--jp-shadow-penumbra-color),
+    0 1px 10px 0 var(--jp-shadow-ambient-color);
+  --jp-elevation-z6: 0 3px 5px -1px var(--jp-shadow-umbra-color),
+    0 6px 10px 0 var(--jp-shadow-penumbra-color),
+    0 1px 18px 0 var(--jp-shadow-ambient-color);
+  --jp-elevation-z8: 0 5px 5px -3px var(--jp-shadow-umbra-color),
+    0 8px 10px 1px var(--jp-shadow-penumbra-color),
+    0 3px 14px 2px var(--jp-shadow-ambient-color);
+  --jp-elevation-z12: 0 7px 8px -4px var(--jp-shadow-umbra-color),
+    0 12px 17px 2px var(--jp-shadow-penumbra-color),
+    0 5px 22px 4px var(--jp-shadow-ambient-color);
+  --jp-elevation-z16: 0 8px 10px -5px var(--jp-shadow-umbra-color),
+    0 16px 24px 2px var(--jp-shadow-penumbra-color),
+    0 6px 30px 5px var(--jp-shadow-ambient-color);
+  --jp-elevation-z20: 0 10px 13px -6px var(--jp-shadow-umbra-color),
+    0 20px 31px 3px var(--jp-shadow-penumbra-color),
+    0 8px 38px 7px var(--jp-shadow-ambient-color);
+  --jp-elevation-z24: 0 11px 15px -7px var(--jp-shadow-umbra-color),
+    0 24px 38px 3px var(--jp-shadow-penumbra-color),
+    0 9px 46px 8px var(--jp-shadow-ambient-color);
 
   /* Borders
    *
@@ -283,11 +283,12 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 0.8;
   --jp-cell-prompt-not-active-font-color: white;
+
   /* A custom blend of MD grey and blue 600
    * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
   --jp-cell-inprompt-font-color: var(--jp-night-green);
 
-   /* A custom blend of MD grey and orange 600
+  /* A custom blend of MD grey and orange 600
     * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
   --jp-cell-outprompt-font-color: var(--jp-night-orange);
 
@@ -430,7 +431,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   border-radius: 6px;
 }
 
-.jp-FileBrowser-toolbar.jp-Toolbar .jp-Toolbar-item:first-child .jp-ToolbarButtonComponent .jp-icon3 {
+.jp-FileBrowser-toolbar.jp-Toolbar
+  .jp-Toolbar-item:first-child
+  .jp-ToolbarButtonComponent
+  .jp-icon3 {
   fill: white;
 }
 
@@ -440,20 +444,20 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 .jp-LauncherCard {
   background: var(--jp-layout-color2);
-  transition: .2s cubic-bezier(0.3, 0, 0.5, 1);
-  transition-property: color,background-color,border-color;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
 }
 
 .jp-LauncherCard:hover {
   background: var(--jp-layout-color4);
-  transition-duration: .1s;
+  transition-duration: 0.1s;
   border-color: var(--jp-night-grey);
 }
 
 .jp-SideBar.lm-TabBar .lm-TabBar-tab.lm-mod-current {
   border-top-style: solid;
   border-top-color: var(--jp-night-green);
-  border-top-width: 3px;
+  border-top-width: 3px; /* stylelint-disable-line */
 }
 
 .CodeMirror-selected {
