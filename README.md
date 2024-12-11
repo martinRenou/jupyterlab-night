@@ -23,3 +23,7 @@ pip install jupyterlab-night
 ```
 
 ![jupyterlab-night](jupyterlab-night.png)
+
+## Acknowledgements
+
+This theme was originally authored by [Martin Renou](https://github.com/martinRenou).
