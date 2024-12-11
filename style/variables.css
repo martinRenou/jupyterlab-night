@@ -24,11 +24,6 @@ Material Design when selecting colors. We are not, however, following
 all of MD as it is not optimized for dense, information rich UIs.
 */
 
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('JetBrainsMonoNL-Regular.ttf') format('truetype');
-}
-
 :root {
   /* Elevation
    *
@@ -120,8 +115,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-ui-font-size1: 13px; /* Base font size */
   --jp-ui-font-size2: 1.2em;
   --jp-ui-font-size3: 1.44em;
-
-  --jp-ui-font-family: 'JetBrains Mono';
+  --jp-ui-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', helvetica,
+    arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
   /*
    * Use these font colors against the corresponding main layout colors.
@@ -183,7 +178,9 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-font-color3: rgba(255, 255, 255, 0.5);
   --jp-content-link-color: var(--jp-night-blue);
 
-  --jp-content-font-family: 'JetBrains Mono';
+  --jp-content-font-family: -apple-system, blinkmacsystemfont, 'Segoe UI',
+    helvetica, arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
 
   /*
    * Code Fonts
@@ -194,7 +191,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-code-font-size: 13px;
   --jp-code-line-height: 1.3077; /* 17px for 13px base */
   --jp-code-padding: 0.385em; /* 5px for 13px base */
-  --jp-code-font-family-default: 'JetBrains Mono';
+  --jp-code-font-family-default: menlo, consolas, 'DejaVu Sans Mono', monospace;
   --jp-code-font-family: var(--jp-code-font-family-default);
 
   /* This gives a magnification of about 125% in presentation mode over normal. */
@@ -278,7 +275,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-editor-active-border-color: var(--jp-brand-color1);
 
   --jp-cell-prompt-width: 64px;
-  --jp-cell-prompt-font-family: 'JetBrains Mono';
+  --jp-cell-prompt-font-family: 'Source Code Pro', monospace;
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1;
   --jp-cell-prompt-not-active-opacity: 0.8;
