@@ -9,6 +9,6 @@ kind: theme
 labextension_name: jupyterlab-night
 project_short_description: Dark theme for JupyterLab
 python_name: jupyterlab_night
-repository: https://github.com/martinRenou/jupyterlab-night.git
+repository: https://github.com/jupyterlab-contrib/jupyterlab-night.git
 test: false
 
