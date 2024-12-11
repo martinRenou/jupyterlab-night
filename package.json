@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "https://github.com/jupyterlab-contribjupyterlab-night",
+    "homepage": "https://github.com/jupyterlab-contrib/jupyterlab-night",
     "bugs": {
-        "url": "https://github.com/jupyterlab-contribjupyterlab-night/issues"
+        "url": "https://github.com/jupyterlab-contrib/jupyterlab-night/issues"
     },
     "license": "BSD-3-Clause",
     "author": {
@@ -25,7 +25,7 @@
     "types": "lib/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jupyterlab-contribjupyterlab-night.git"
+        "url": "https://github.com/jupyterlab-contrib/jupyterlab-night.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",
