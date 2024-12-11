@@ -1,6 +1,6 @@
 # jupyterlab-night
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/martinRenou/jupyterlab-night/main?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contribjupyterlab-night/main?urlpath=lab)
 
 JupyterLab dark theme inspired by the Github dark theme
 
